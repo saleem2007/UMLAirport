@@ -1,0 +1,52 @@
+********PSEUDO-CODE
+class Airport {
+	
+	name = String
+	location = String
+	
+	Methods/Functions
+	ticketCounter()
+	security()
+	passengerCheckIn()
+	employeeCheckIn()
+	crewCheckIn()
+	baggageCheckIn()
+	boardPlane()
+
+}
+
+class Passenger {
+
+	name = String
+	address = String
+	phoneNumber = Integer
+	id = Integer
+	passengerCheckIn()
+	baggageCheckIn()
+	boardPlane()
+	security()
+
+}
+
+class Employee {
+
+	name = String
+	employeeBadge = Integer
+	address = String
+	phoneNumber = Integer
+	employeeCheckIn()
+	security()
+	
+	
+}
+
+class Crew {
+
+	name = String
+	employeeBadge = Integer
+	address = String
+	phoneNumber = Integer
+	crewCheckIn()
+	security()
+	
+}
